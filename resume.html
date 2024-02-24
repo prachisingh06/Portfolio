@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Font Awesome CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS (including Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>MY</title>
+    <style>
+         @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
+            @import url("https://fonts.googleapis.com/css?family=Martel+Sans&display=swap");
+            @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+
+.nav-bar{
+    height: 60px;
+    color: #2f5b6d;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    background-color: transparent;
+   
+}
+
+.nav-bar:hover{
+    background-color:#87a8c2;
+    transition: all .4s linear;
+}
+
+.logo{
+    height: 40px;
+    margin: 10px 0px;
+    
+}
+
+li{
+    float: left;
+    list-style: none;
+    height: 40px;
+    border: 1px solid #2f5b6d;
+    padding: 5px;
+    margin:10px 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px 1px #2f5b6d;
+    font-weight: bold;
+    cursor: pointer;
+    min-width: 80px;
+    text-align: center;
+    transition: all .4s linear;
+
+}
+div i{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 10px 30px;
+    box-shadow: 0px 0px 3px 1px #2f5b6d;
+    font-weight: bold;
+    cursor: pointer;
+    font-weight: bold;
+    border: 3px solid #2f5b6d;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    padding: 5px;
+    transition: all .4s linear;
+
+    
+}
+
+li:hover{
+    box-shadow: 0px 0px 10px 3px #2f5b6d;
+    text-shadow: 0px 0px  2px black;
+    transition: all .4s linear;
+
+}
+i:hover{
+    box-shadow: 0px 0px 10px 3px #2f5b6d;
+    text-shadow: 0px 0px  2px black;
+    transition: all .4s linear;
+
+}
+
+
+
+.landing{
+    min-height: 800px;
+    background-color: #87a8c2;
+    padding-top:100px ;
+}
+.profile-inner {
+    position: relative;
+    background-image: url(photo.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 70px 3px #2f5b6d;
+    height: 450px;
+    margin: 100px 0px;
+    border-radius: 50%;
+    border: 2px solid white;
+    overflow: hidden;
+    animation: morph1 8s ease-in-out infinite;
+  }
+
+  @keyframes morph1 {
+  
+	
+  
+	
+}
+
+
+
+
+.container-fluid a{
+    margin-right: 20%;
+}
+
+.hireMe{
+    padding: 100px;
+}
+
+.hireMe h1{
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0px 0px 10px #2f5b6d;
+}
+.hireMe .p1{
+    font-size: 2rem;
+    color:#2f5b6d;
+    font-weight: bold;
+}
+.hireMe .p2{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.hireMe button{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #2f5b6d;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    color: #2f5b6d;
+    margin-right: 20px;
+}
+.education{
+    min-height: 350px;
+    margin: 0;
+    background-color: #87a8c2;
+    padding: 0px 100px;
+}
+
+.ultop{
+    margin-left: 260px;
+}
+
+.underline{
+    
+    height: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 40px 1px #2f5b6d;
+    border-radius: 40px;
+}
+
+
+
+    .card b{
+        color: white;
+        font-size: 80px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .skills{
+        background-color:  #87a8c2;
+        min-height:500px ;
+        margin: 0;
+    }
+    .skill-card div div{
+        background-color:  #87a8c2;
+        border-radius: 6px;
+        margin-bottom: 10px;
+        border: 2px solid white;
+    }
+
+    .skill-card div div p{
+        min-height: 30px;
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 20px;
+        color: white;
+        font-weight: 500;
+        background-color: #2f5b6d;
+        text-align: left;
+    }
+
+    .organization{
+        background-color: #87a8c2;
+        min-height: 400px;
+        margin: 0;
+    }
+
+     .org1{
+        min-height: 400px;
+        background-color:  #87a8c2;
+        text-align: center;
+    }
+
+ 
+
+    .company{
+        background-color: transparent;
+        border: 2px solid white;
+        min-height: 100px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        font-size: 30px;
+        box-shadow: 0px 0px 7px 2px #2f5b6d;
+    }
+
+   .company .b1{
+    font-size: 20px;
+    color: white;
+   }
+   .company .b2{
+    font-size: 14px;
+    color: #2f5b6d;
+   }
+    .company1{
+        background-color:  #87a8c2;
+        border: 2px solid white;
+        min-height: 100px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 7px 5px #2f5b6d;
+        color: white;
+        line-height: 100px;
+        font-size: 50px;
+        font-weight: bold;
+        
+    }
+
+    .org1 .row{
+        margin-bottom: 20px;
+    }
+
+    .summary{
+        color: white;
+        font-size: 20px;
+        min-height: 400px;
+    text-align: justify;
+    }
+    iframe {
+    border: 2px solid red;
+   
+    box-shadow: 0px 0px 70px 3px #2f5b6d;
+    animation: animateBoxShadow 3s linear infinite;
+    display: block; /* Ensure the iframe is displayed as a block element */
+  }
+
+  @keyframes animateBoxShadow {
+    0% {
+      box-shadow: 0px 0px 10px 3px #2f5b6d;
+      border-radius: 3px;
+    }
+    50% {
+      box-shadow: 0px 0px 10px 3px #21e385; /* Adjust the values as needed */
+      border-radius: 13px;
+    }
+    70% {
+      box-shadow: 0px 0px 10px 3px #edc305;
+    }
+    100% {
+      box-shadow: 0px 0px 10px 3px #2a98cc;
+      border-radius: 3px;
+    }
+  }
+
+  .ultop:hover{
+    background-color:#87a8c2;
+  }
+
+  :root {
+	--background: #005;
+	--primary: #88D5BF;
+	--secondary: #5D6BF8;
+	--third: #e27fcb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.card {
+ 	background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 260px;
+  transition: all 1s ease-in-out;
+  width: 300px;
+  z-index: 5;
+  margin-bottom: 10px;
+  color: white;
+  padding-top: 20px;
+}
+
+@keyframes morph {
+  0% {
+			border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+			background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+	} 
+	
+	50% {
+			border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;
+			background: linear-gradient(45deg, var(--third) 0%, var(--secondary) 100%);
+	}
+  
+	100% {
+		border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+		background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+	} 
+}
+
+body{
+    background-color: #5d798e;
+}
+
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  height: 50px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px
+}
+
+
+
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 800px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+.txt-type > .txt {
+      border-right: 0.2rem solid #030e17;
+    }
+
+  @media(min-width: 1200px) {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+
+    @media(max-width: 800px) {
+      .container {
+        padding: 0 1rem;
+      }
+
+      h1 {
+        font-size: 4rem;
+      }
+    }
+
+    @media(max-width: 500px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    
+.content {
+	position: fixed;
+}
+
+.content h1 {
+	color: #fff;
+	font-size: 1.8em;
+	position: absolute;
+	transform: translate(10%, -30%);
+}
+
+.content h1:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 1px #2f5b6d;
+}
+
+.content h1:nth-child(2) {
+	color:#2f5b6d;
+	animation: animate 2s ease-in-out infinite;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
+}
+
+.popup{
+        min-height: 500px; 
+        backdrop-filter: blur(10px);
+       display: none;
+        position: absolute;
+         left: 20px; top: 100px;
+         width: 100%;
+         margin: 0;
+         color: white;
+         overflow: hidden;
+         width: 95%;
+}
+
+.popup div{
+    background-color: transparent;
+        border: 2px solid #2f5b6d;
+        border-radius: 10px;
+        min-height: 400px;
+        padding: 30px;
+}
+
+.popup div p{
+    text-align: justify;
+   
+}
+
+#cut{
+    outline: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+background-color: #314c57;
+}
+.b3{
+  
+  font-size: 50px;
+    color: white;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+    <!-- NAV BAR -->
+    <div class="row m-0 p-0 fixed-top" >
+            <div class="col-sm-12 nav-bar">
+                <!-- NAV BAR -->
+            <nav class="navbar navbar-expand-lg navbar-dark  nav-bar">
+                <div class="container-fluid">
+                    <a class="navbar-brand logo fw-bold fs-4" href="#"><div class="content">
+                    <h1>BrainTime</h1>
+                    <h1>BrainTime</h1>
+                </div></a>
+                   
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ultop">
+                            <li class="nav-item">EDUCATION</li>
+                            <li class="nav-item">SKILLS</li>
+                            <li class="nav-item">TRANEES</li>
+                            <li class="nav-item">CERTIFICATES</li>
+                            <div class="navbar-nav ms-auto">
+                                <i class="fa-solid fa-user" id="user"></i>
+                            </div>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div> 
+    
+    
+
+    <!-- LANDING PAGE -->
+    <div class="row landing m-0 ">
+        <div class="col-sm-7 hireMe">
+                <h1>Hi, I'm Prachi Singh</h1>
+                <p class="p1">WE KNOW <span class="txt-type" data-wait="4000" data-words='[ "C-PROGRAMMING", "HTML:5 CSS:4 BOOTSTRAP:5 ","JAVASCRIPT"]'></span></p>
+               
+                <p class="p2">Hii friends I am a web developer and my proffesional biodata are written in this page.<br>
+                So  you can go for about me which are pointed in "NAV-BAR", <br> ThankYou .
+                </p>
+                
+                <button class="text-light mb-2" style="background-color: #183441;"><a class="text-light" href="https://www.linkedin.com/in/prachi-singh-4b718b294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Hire Me</a></button>
+                <button><a class="text-light" href="https://www.linkedin.com/in/prachi-singh-4b718b294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Let's Talk</a></button>
+        </div>
+
+
+
+
+        <div class="col-sm-5 profile">
+            <div class="row">
+                <div class="col-sm-9 profile-inner mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- EDUCATION PAGE -->
+    <div class="row education">
+        <div class="col-sm-12 underline"></div>
+        <div class="col-sm-3 mx-auto text-center fs-5 text-light fw-bold">EDUCATION</div>
+        <div class="row">
+            <div class="col-sm-3">
+                <!-- Apply the img styles to the card div -->
+            </div>
+            <div class="col-sm-4">
+                <div class="card img">
+                    <b class="fa-solid fa-school"> 2021</b>
+                    <b style="font-size: 20px;"><i class="fa-solid fa-circle-chevron-down"></i></b>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card img">
+                    <b class="fa-solid fa-graduation-cap"> 2024</b>
+                    <b style="font-size: 20px;"><i class="fa-solid fa-circle-chevron-down"></i></b>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Your remaining content goes here -->
+
+
+
+
+
+
+
+    <!-- SKILLS -->
+        <div class="row skills">
+        <div class="col-sm-12 mt-5  underline mx-auto">
+        <div class="col-sm-3 mx-auto text-center fs-5 m-4 text-light fw-bold">SKILLS</div>
+        <div class="col-sm-12 skill-card">
+            <div class="row p-5">
+                <div class="col-sm-12 p-0"><p class="m-0 progress-bar" role="progressbar" area-valuenow="85" style="width: 90%;">HTML 90%</p></div>
+                <div class="col-sm-12 p-0"><p class="m-0 progress-bar" role="progressbar" area-valuenow="105" style="width: 60%;">JAVASCRIPT 60% </p></div>
+                <div class="col-sm-12 p-0"><p class="m-0 progress-bar" role="progressbar" area-valuenow="85" style="width: 90%;">CSS 90%</p></div>
+                <div class="col-sm-12 p-0"><p class="m-0 progress-bar" role="progressbar" area-valuenow="85" style="width: 75%;">BOOTSTRAP 75% </p></div>
+                <div class="col-sm-12 p-0"><p class="m-0 progress-bar" role="progressbar" area-valuenow="85" style="width: 70%;">C PROGRAMMING 70%</p></div>
+                <div class="col-sm-12 p-0"><p class="m-0 progress-bar" role="progressbar" area-valuenow="85" style="width: 60%;">JAVA PROGRAMMING 60%</p></div>
+               <div class="col-sm-12 p-0"><p class="m-0 progress-bar" role="progressbar" area-valuenow="85" style="width: 30%;">REACTJS 30%</p></div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+
+
+
+
+      <!-- TRAINING PROGRAM -->
+<div class="row organization p-0 m-0">
+        <div class="row">
+        <div class="col-sm-12 mt-5 underline mx-auto"></div>
+        </div>   
+        <div class="row">
+        <div class="col-sm-3 mx-auto text-center fs-5 m-4 text-light fw-bold">TRAINING PROGRAM</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 mx-auto org1">
+                <div class="row">
+                    <div class="col-sm-1 company1">1</div>
+                    <div class="col-sm-10 mx-auto company text">
+                        <b class="b1">SUMMER TRAINING 2021 </b><br>
+                        <b class="b2">HTML, CSS, BOOTSTRAP, JAVASCRIPT, JAVA</b>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-1"></div>
+                  <div class="col-sm-10 mx-auto company text">
+                       <b class="b3" ><a href="certificate.html">CERTIFICATES</a></b>
+                  </div>
+                </div>
+                
+                </div>
+                
+            </div>
+            
+        </div>
+    
+</div>
+
+    <footer class="footer">
+        <div class="row waves">
+            <div class="col-sm-12">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div></div>
+        </div>
+
+        <div class="row ">
+            <div class="col-sm-12 ">
+                
+       <a class="social-icon__link" href="">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a class="social-icon__link" href="https://www.instagram.com/reticent_pranee?igsh=MTVxMjRoMGlhNXdieA==">
+              <ion-icon name="logo-instagram"></ion-icon>
+         </a>
+         <a class="social-icon__link" href="https://www.linkedin.com/in/prachi-singh-4b718b294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+           
+        
+        
+        </div>
+        </div>
+      </footer>
+
+      <footer class="h-25 bg-primary text-light fw-bold py-2 text-center">This portfolio is developed by Prachi Singh (13-08-2024)</footer>
+      
+      <!-- POP UP -->
+
+      <div class="row popup">
+        <div class="col-sm-4 mx-auto">
+            <h3 class="text-center">ThankYou</h3>
+            <p>
+                Hello, my name is Prachi Singh. I am thrilled to be here today and eager to discuss how my skills and experience align with the goals of this company.
+
+
+I believe in continuous learning and staying updated with industry trends to ensure I bring the most value to my work.
+
+Thank you for considering my application, and I look forward to discussing how I can make a meaningful impact within your organization.
+            </p>
+            <button id="cut" >CLOSE</button>
+        </div>
+        
+      </div>
+      
+      
+      <!---->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+      <script>
+
+        class TypeWriter {
+      constructor(txtElement, words, wait = 3000) {
+        this.txtElement = txtElement;
+        this.words = words;
+        this.txt = '';
+        this.wordIndex = 0;
+        this.wait = parseInt(wait, 8);
+        this.type();
+        this.isDeleting = false;
+      }
+
+      type() {
+        // Current index of word
+        const current = this.wordIndex % this.words.length;
+        // Get full text of current word
+        const fullTxt = this.words[current];
+
+        // Check if deleting
+        if(this.isDeleting) {
+          // Remove char
+          this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+          // Add char
+          this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        // Insert txt into element
+        this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
+
+        // change color for data-text
+        this.txtElement.innerHTML = `<span class="txt" style="color: #2f5b6d">${this.txt}</span>`;
+
+        // Initial Type Speed
+        let typeSpeed = 100;
+
+        if(this.isDeleting) {
+          typeSpeed /= 2;
+        }
+
+        // If word is complete
+        if(!this.isDeleting && this.txt === fullTxt) {
+          // Make pause at end
+          typeSpeed = this.wait;
+          // Set delete to true
+          this.isDeleting = true;
+        } else if(this.isDeleting && this.txt === '') {
+          this.isDeleting = false;
+          // Move to next word
+          this.wordIndex++;
+          // Pause before start typing
+          typeSpeed = 200;
+        }
+
+        setTimeout(() => this.type(), typeSpeed);
+      }
+    }
+
+    // Init On DOM Load
+    document.addEventListener('DOMContentLoaded', init);
+
+    // Init App
+    function init() {
+      const txtElement = document.querySelector('.txt-type');
+      const words = JSON.parse(txtElement.getAttribute('data-words'));
+      const wait = txtElement.getAttribute('data-wait');
+      // Init TypeWriter
+      new TypeWriter(txtElement, words, wait);
+    }
+
+
+    document.querySelector("#user").addEventListener("click",function(){
+        document.querySelector(".popup").style.display="block";
+        document.querySelector("#cut").addEventListener("click",function(){
+            document.querySelector(".popup").style.display="none"
+        })
+    })
+      </script>
+    
+  
+</body>
+</html>
